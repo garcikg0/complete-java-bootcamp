@@ -1,0 +1,16 @@
+public class WhileLoops {
+    public static void main(String[] args) {
+        double choice = 0.01;
+        double guess = 0.99;
+
+        while (guess > choice) {
+            guess = Math.random();
+            System.out.println(guess);
+        }
+    }
+}
+
+/**
+ * use a for loop when you KNOW how many times a code needs to run.
+ * use a while loop to run code as long as something is true.
+ */
